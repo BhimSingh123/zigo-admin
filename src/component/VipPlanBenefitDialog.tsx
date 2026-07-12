@@ -17,6 +17,7 @@ import {
 import { getDefaultCurrency } from "@/store/settingSlice";
 import { baseURL } from "@/utils/config";
 
+
 interface ErrorState {
   coin: string;
   bonusCoin: string;
