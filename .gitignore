@@ -20,6 +20,9 @@
 # production
 /build
 
+# config files
+src/utils/config.ts
+
 # misc
 .DS_Store
 *.pem
