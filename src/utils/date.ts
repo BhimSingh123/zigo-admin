@@ -13,6 +13,9 @@ function toValidDate(value: DateInput): Date | null {
     const raw = value.trim();
     if (!raw) return null;
 
+    // Normalize some common backend formats:
+    // - "2026-03-18 10:30:12" -> "2026-03-18T10:30:12"
+    // - "2026-03-18T10:30:12.000Z" stays as-is
     const normalized = raw.includes("T") ? raw : raw.replace(" ", "T");
     const d = new Date(normalized);
     return isNaN(d.getTime()) ? null : d;
@@ -20,7 +23,6 @@ function toValidDate(value: DateInput): Date | null {
 
   return null;
 }
-
 
 export function formatDateTime(
   value: DateInput,
