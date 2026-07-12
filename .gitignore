@@ -21,7 +21,7 @@
 /build
 
 # config files
-src/utils/config.ts
+# src/utils/config.ts
 
 # misc
 .DS_Store
