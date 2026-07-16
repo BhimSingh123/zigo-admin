@@ -1,4 +1,4 @@
-export const baseURL: string = "https://superstreamapi.stackearn.com/";
+export const baseURL: string = "https://zigoapi.stackearn.com/";
 export const key: string = "";
 export const projectName: string = "Zigo Live ";
 export const apiKey: string =  "AIzaSyDpDATML_ff6R_vJrvDYgixMRgXBva_IzU";
