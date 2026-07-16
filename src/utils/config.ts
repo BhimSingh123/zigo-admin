@@ -1,11 +1,10 @@
 export const baseURL: string = "https://superstreamapi.stackearn.com/";
 export const key: string = "";
 export const projectName: string = "Zigo Live ";
-export const apiKey: string =  "AIzaSyAv43NGBQ-aUX8fmnu-vK9uOqUTdFy_9DA";
-export const authDomain : string =  "superstreamapp.firebaseapp.com";
-export const projectId : string = "superstreamapp";
-export const storageBucket : string = "superstreamapp.firebasestorage.app";
-export const messagingSenderId : string = "353610721060";
-export const appId : string = "1:353610721060:web:8e2c2421c3aca4c013b5b1";
-export const measurementId : string = "G-HZ87J5T08V"
-
+export const apiKey: string =  "AIzaSyDpDATML_ff6R_vJrvDYgixMRgXBva_IzU";
+export const authDomain : string =  "zigolive-7ba4e.firebaseapp.com";
+export const projectId : string = "zigolive-7ba4e";
+export const storageBucket : string = "zigolive-7ba4e.firebasestorage.app";
+export const messagingSenderId : string = "609534297988";
+export const appId : string = "1:609534297988:web:802aeaaa26a97daec2ffd1";
+export const measurementId : string = "G-GRE04MYJWJ"
